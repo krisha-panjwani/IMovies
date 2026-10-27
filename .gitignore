@@ -1,0 +1,15 @@
+# Dependencies and build output
+node_modules/
+dist/
+
+# Secrets - never upload real .env files (only .env.example)
+.env
+
+# Logs and OS files
+*.log
+.DS_Store
+
+# Local tools and editor settings (not part of the project)
+demo-video/
+.claude/
+.vscode/
