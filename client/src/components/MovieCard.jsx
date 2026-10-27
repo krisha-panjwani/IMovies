@@ -9,7 +9,7 @@ export default function MovieCard({ movie }) {
 
   return (
     // The heart button sits beside the link (not inside it), so clicking it
-    // saves the movie instead of opening the movie page.
+    // saves the movie instead of opening the movie page .
     <div className="movie-card-wrap">
       <Link to={`/movies/${movie._id}`} className="movie-card" aria-label={`${movie.title} - view details`}>
         <Poster movie={movie}>
